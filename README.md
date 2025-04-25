@@ -1,7 +1,7 @@
 # mikrotik
 Cyber Threat Intel for Mikrotik routers in RSC format 
 # Script contributed by JayR Baldeva
-# assuming you download the iplistbns.rsc to your desktop first
+# assuming you download the WatchDogBlocklist.rsc to your desktop first
 # and name it as WatchDogBlocklist
 /import file-name=WatchDogBlocklist.rsc
 
