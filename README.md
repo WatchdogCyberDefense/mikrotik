@@ -40,7 +40,8 @@ Add the following firewall filter rules to drop connections from IPs listed in t
 add action=drop chain=forward comment="Blocklist Forward"  dst-address-list=WatchDogBlocklist log=yes log-prefix=blocklist
 add action=drop chain=input comment="Blocklist Input" log=yes  src-address-list=WatchDogBlocklist log-prefix=blocklist
 ```
-
+You can delete the old list with this command: 
+/ip firewall address-list remove [find where list="bnsblocklist"]
 ---
 
 You can help improve the effectiveness by alerting us to false positives and false negatives.
