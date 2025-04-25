@@ -2,7 +2,7 @@
 
 # Mikrotik Cyber Threat Intel
 
-This repository offers a Cyber Threat Intelligence (CTI) feed for MikroTik routers in RSC format. It provides a compact list of malicious IP addresses, designed using AI/ML reinforcement learning to block 60–70% of attacks while minimizing list size, helping to protect your network effectively. 
+This repository provides a compact Cyber Threat Intelligence (CTI) feed for Mikrotik routers in RSC format. Powered by AI/ML reinforcement learning, it delivers a minimal list of malicious IP addresses that blocks 60–70% of attacks. The small size ensures compatibility with most Mikrotik models and uses minimal CPU resources, making it an efficient security solution for your network. This is "Security for the 99%"
 
 ---
 
