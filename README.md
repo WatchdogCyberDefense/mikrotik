@@ -1,5 +1,3 @@
-Certainly! Here's a polished and professional version of your GitHub README content for the Mikrotik Cyber Threat Intel script:
-
 ---
 
 # Mikrotik Cyber Threat Intel
