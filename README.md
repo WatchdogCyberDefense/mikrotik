@@ -36,9 +36,8 @@ Add the following firewall filter rules to drop connections from IPs listed in t
 ```plaintext
 /ip firewall filter
 
-add action=drop chain=forward connection-state=new log-prefix=blocklist src-address-list=WatchDogBlocklist
-
-add action=drop chain=input connection-state=new log-prefix=blocklist src-address-list=WatchDogBlocklist
+add action=drop chain=forward comment="Blocklist Forward" dst-address-list=bnsblocklist log=yes log-prefix=blocklist
+add action=drop chain=input comment="Blocklist Input" log=yes log-prefix=blocklist src-address-list=bnsblocklist
 ```
 
 ---
