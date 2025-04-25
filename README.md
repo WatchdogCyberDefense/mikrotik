@@ -7,6 +7,7 @@ Cyber Threat Intel for Mikrotik routers in RSC format
 
 
 /ip firewall filter
+
 add action=drop chain=forward connection-state=new log-prefix=blocklist src-address-list=WatchDogBlocklist
 
 add action=drop chain=input connection-state=new log-prefix=blocklist src-address-list=WatchDogBlocklist
