@@ -52,4 +52,4 @@ This setup helps protect your Mikrotik router by blocking traffic from known mal
 This layout improves readability by using clear sections, code blocks, and concise instructions, making the README look professional and user-friendly.
 
 ---
-Answer from Perplexity: pplx.ai/share
+
