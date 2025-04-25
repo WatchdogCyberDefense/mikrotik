@@ -43,7 +43,7 @@ add action=drop chain=input comment="Blocklist Input" log=yes  src-address-list=
 
 You can delete the old list with this command: 
 ```plaintext
-/ip firewall address-list remove [find where list="=WatchDogBlocklist"]
+/ip firewall address-list remove [find where list=WatchDogBlocklist"]
 ```
 ---
 
