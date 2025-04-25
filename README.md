@@ -41,9 +41,8 @@ add action=drop chain=forward comment="Blocklist Forward"  dst-address-list=Watc
 add action=drop chain=input comment="Blocklist Input" log=yes  src-address-list=WatchDogBlocklist log-prefix=blocklist
 ```
 
-
-```plaintext
 You can delete the old list with this command: 
+```plaintext
 /ip firewall address-list remove [find where list="=WatchDogBlocklist"]
 ```
 ---
