@@ -42,7 +42,7 @@ add action=drop chain=input comment="Blocklist Input" log=yes  src-address-list=
 
 ---
 
-This setup helps protect your Mikrotik router by blocking traffic from known malicious IP addresses.
+This setup helps protect your Mikrotik router by blocking traffic from known malicious IP addresses. You can help improve the effectiveness by alerting us to false positives and false negatives. This compact list is designed using AI/ML Reinforcement learning algorithms to optimally block around 60-70% of the attacks on your network. 
 
 ---
 
