@@ -14,8 +14,8 @@ This repository provides a Cyber Threat Intelligence script for Mikrotik routers
 
 ### Prerequisites
 
-- Download the `WatchDogBlocklist.rsc` file to your desktop.
-- Rename the file to `WatchDogBlocklist-current.rsc`.
+- Download the `WatchDogBlocklist-current.rsc` file to your desktop.
+- If needed, rename the file to `WatchDogBlocklist-current.rsc`.
 
 ---
 
@@ -47,7 +47,5 @@ This setup helps protect your Mikrotik router by blocking traffic from known mal
 
 ---
 
-This layout improves readability by using clear sections, code blocks, and concise instructions, making the README look professional and user-friendly.
 
----
 
