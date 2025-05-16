@@ -37,13 +37,14 @@ Add the following firewall filter rules to drop connections from IPs listed in t
 ```plaintext
 /ip firewall filter
 
-add action=drop chain=forward comment="Blocklist Forward"  dst-address-list=WatchDogBlocklist log=yes log-prefix=blocklist
+add action=drop chain=forward comment="Blocklist Forward Outgoing"  dst-address-list=WatchDogBlocklist log=yes log-prefix=blocklist
+add action=drop chain=forward comment="Blocklist Forward Incoming" src-address-list=WatchDogBlocklist log=yes log-prefix=blocklist
 add action=drop chain=input comment="Blocklist Input" log=yes  src-address-list=WatchDogBlocklist log-prefix=blocklist
 ```
 
 You can delete the old list with this command: 
 ```plaintext
-/ip firewall address-list remove [find where list=WatchDogBlocklist"]
+/ip firewall address-list remove [find where list="WatchDogBlocklist"]
 ```
 ---
 
