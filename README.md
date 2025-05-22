@@ -25,7 +25,7 @@ This repository provides a compact Cyber Threat Intelligence (CTI) feed for Mikr
 Import the blocklist file into your Mikrotik router using the following command:
 
 ```shell
-/import file-name=WatchDogBlocklist-current.rsc
+/import file-name=WatchDogBlocklist-current.rsc verbose=yes
 ```
 
 ---
